@@ -7,7 +7,7 @@
 
 #spider.py
 完成图片抓取功能，由于acg12中的url格式规律很好找，只需要找到图片存放的url规律就行，这里用urilib的那个下载函数失败了，就换成wirte直接写入文件了，并且用了多线程加快下载速度。因为线程之间没冲突，所以不需要用到异步锁。过程中学习了python的语法以及相关特性。
-```python { .theme-legacy }
+```
 #python
 # -*- coding: utf-8 -*-
 #author amourjun
@@ -51,7 +51,7 @@ set_wallpaper(file_name)
 #wallpaper-mac.py
 将指定文件夹中的非目录文件加入file列表，通过随机函数随机选取壁纸文件，并通过调用applesScript脚本来设置mac壁纸。
 这里暂时只实现了mac版本，后续进行兼容到windows版本，并且将整个项目打包。
-```python { .theme-legacy }
+```
 #python
 # -*- coding: utf-8 -*-
 #author amourjun
