@@ -88,4 +88,5 @@ def set_wallpaper(file_name):
     subprocess.Popen(SCRIPT%file_name, shell = True)
 
 set_wallpaper(file_name)
+
 ```
